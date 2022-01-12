@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Blog-site ",
   "main": "server.js",
+  "engines": {
+    "node": "^17.3.0"
+  },
   "scripts": {
     "test": "jest",
     "start": "node server.js",
