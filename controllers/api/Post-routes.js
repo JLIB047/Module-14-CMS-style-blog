@@ -86,6 +86,7 @@ router.post('/', withAuth, (req, res) => {
 });
 
 router.put('/:id', withAuth, (req, res) => {
+    console.log(req.body);
     Post.update({
         title: req.body.title,
         content: req.body.content
